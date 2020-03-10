@@ -33,24 +33,24 @@ h1 a:hover {
     text-decoration: underline;
 }
 
-.navigation {
+#navigation {
     text-align: right;
 }
 
-.navigation ul {
+#navigation ul {
     float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation li {
+#navigation li {
     float: left;
     padding: 5px;
 }
 
-.navigation a:link {
-    background-color: #9b59b6;
+.nav-highlighted {
+    background-color: #b51496;
     border: 1px solid #8e44ad;
     border-radius: 4px;
     color: #ffffff;
@@ -58,22 +58,13 @@ h1 a:hover {
     text-decoration: none;
 }
 
-.navigation a:visited {
+.nav-default {
     background-color: #9b59b6;
     border: 1px solid #8e44ad;
     border-radius: 4px;
     color: #ffffff;
     padding: 5px 8px;
     text-decoration: none;
-}
-
-.navigation a:hover {
-    background-color: #9b59b6;
-    border: 1px solid #8e44ad;
-    border-radius: 4px;
-    color: #ffffff;
-    padding: 5px 8px;
-    text-decoration: underline;
 }
 
 #cta {
